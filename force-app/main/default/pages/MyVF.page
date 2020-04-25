@@ -1,0 +1,24 @@
+<apex:page >
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            <apex:form >
+                <apex:inputTextarea /><br/>
+                <apex:inputText /><br/>
+                <apex:outputText value="Meena aamma"></apex:outputText>
+                <table Border="1">
+                    <thead>
+                        <th>Name</th>
+                        <th>ROll No</th>
+                    </thead>
+                    <tbody>
+                         <tr>
+                             <td>Meenakshi</td>
+                             <td>14CSE15</td>
+                         </tr>
+                    </tbody>
+                </table>
+            </apex:form>            
+        </apex:pageBlockSection>
+
+    </apex:pageBlock>
+</apex:page>

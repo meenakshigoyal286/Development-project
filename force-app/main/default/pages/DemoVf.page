@@ -1,0 +1,19 @@
+<apex:page standardController="Account" recordSetVar="accs">
+    <apex:form >
+    <apex:slds />
+        <apex:pageBlock >
+            <table class="slds-table slds-table_bordered">
+                <thead><th>ID</th><th>Name</th><th>Rating</th></thead>
+                <tbody>
+                    <apex:repeat value="{!accs}" var="accObj">
+                        <tr>
+                            <td>{!accObj.Id}</td>
+                            <td>{!accObj.Name}</td>
+                            <td>{!accObj.Rating}</td>
+                        </tr>
+                    </apex:repeat>
+                </tbody>
+            </table>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
