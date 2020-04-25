@@ -5,7 +5,7 @@ public class accountBatch_Test {
          //List<Account> lstofAccount = new List<Account>();
         //for(Integer i=0;i<200;i++){
 		Account acc = new Account();
-        acc.Name = 'test';
+        //acc.Name = 'test';
         acc.Primary__c=TRUE;
           
         
