@@ -7,7 +7,7 @@ global class updateAccountBatch Implements Schedulable
         
         for(Account objacc : listofAccount)
         {
-            objacc.Description = 'Updated';
+            objacc.Description = 'Updated'
         }
         
         update listofAccount;
